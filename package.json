@@ -5,5 +5,16 @@
   "main": "src/index.ts",
   "repository": "git@github.com:chevyphillip/tsmc.git",
   "author": "Chevy Phillip",
-  "license": "AGPL-3.0"
+  "license": "AGPL-3.0-or-later",
+  "dependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn build && node bin/index.js"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
 }
