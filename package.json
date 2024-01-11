@@ -1,0 +1,9 @@
+{
+  "name": "tsmc",
+  "version": "1.0.0",
+  "description": "Typescript starter",
+  "main": "src/index.ts",
+  "repository": "git@github.com:chevyphillip/tsmc.git",
+  "author": "Chevy Phillip",
+  "license": "AGPL-3.0"
+}
